@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RendererInterface">
+      <UniqueIdentifier>{3ab9ed4a-3d6a-4ea4-91f2-220b77d603a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererInterface\GL">
+      <UniqueIdentifier>{8e48a8e8-2582-44ed-8e34-c14de59965e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererInterface\DX">
+      <UniqueIdentifier>{9cc202e1-4ffc-4f26-9353-0c6c47875446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererInterface\DX\Windows_DX11">
+      <UniqueIdentifier>{4372c9d5-d936-443c-b877-c2d6b1591dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererInterface\DX\Windows_DX12">
+      <UniqueIdentifier>{43615ebd-d465-421d-8c3c-59045a5da6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{52bd8e0a-285f-4991-879a-7b551ecc6ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{c98c1671-5bd6-4a4f-a6ed-c56c951572cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DX">
+      <UniqueIdentifier>{2d31ca4a-96be-46d3-a7d4-a7935b8a6062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DX\Vertex">
+      <UniqueIdentifier>{3a92d54e-c626-4b34-8124-f45e484b1b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DX\Includes">
+      <UniqueIdentifier>{1fa835ca-68c7-41c0-ab56-3894bd9a579d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DX\Fragments">
+      <UniqueIdentifier>{f6dca647-bc93-44b3-88d2-9927bd184c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GL">
+      <UniqueIdentifier>{fe895bbe-ad89-4603-9555-7fc290e46a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PSSL">
+      <UniqueIdentifier>{e2be3242-e785-4e30-8e8b-de58fc4c7546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\NVM">
+      <UniqueIdentifier>{13a92e1f-127b-4df6-bc6f-6b6a03837bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VK">
+      <UniqueIdentifier>{54a6872f-6055-4249-8d98-5e7b4cf881c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{fa37e835-3738-479d-9886-c99f0dce5c0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="OrionApp.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererInclude.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsDX11RenderKernel.h">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDriver.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsDX11RenderTarget.h">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingEngine.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawcall.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MathInclude.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsDX11Shader.h">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsDX11Drawcall.h">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OrionApp.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsDX11RenderKernel.cpp">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDriver.cpp">
+      <Filter>RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsDX11RenderTarget.cpp">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingEngine.cpp">
+      <Filter>RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawcall.cpp">
+      <Filter>RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsDX11Drawcall.cpp">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsDX11Shader.cpp">
+      <Filter>RendererInterface\DX\Windows_DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OrionApp.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="OrionApp.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ScreenVertex.hlsl">
+      <Filter>Shaders\DX\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="MeshVertex.hlsl">
+      <Filter>Shaders\DX\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="DebugTest.hlsl">
+      <Filter>Shaders\DX\Fragments</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MeshLayout.hlsli">
+      <Filter>Shaders\DX\Includes</Filter>
+    </None>
+    <None Include="ScreenLayout.hlsli">
+      <Filter>Shaders\DX\Includes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
